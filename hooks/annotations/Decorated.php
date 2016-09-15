@@ -10,7 +10,7 @@ require_once(dirname(__FILE__).'/annotations.php');
  * @author Trieu Nguyen
  * @Target("method")
  */
-class Api extends Annotation {
-    public $secured = FALSE;
+class Decorated extends Annotation {
+    public $themeName = 'default';
 }
 ?>
